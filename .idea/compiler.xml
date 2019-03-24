@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="grpc-grades-proto" />
+        <module name="grpcgradesservice" />
+        <module name="grpcstudentsclients" />
+        <module name="grpcstudentservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="grpc-grades-proto" target="1.8" />
+      <module name="grpc-nsq" target="1.5" />
+      <module name="grpcgetallinfoservice" target="1.5" />
+      <module name="grpcgetgrdsservice" target="1.5" />
+      <module name="grpcgetstudentsservice" target="1.5" />
+      <module name="grpcgradesservice" target="1.5" />
+      <module name="grpcnameservices" target="1.5" />
+      <module name="grpcstudentsclients" target="1.5" />
+      <module name="grpcstudentservice" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

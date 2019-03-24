@@ -1,0 +1,7 @@
+com\sunnywu\nsq\NsqProducter.class
+com\sunnywu\service\UserService.class
+com\sunnywu\service\impl\UserServiceImpl.class
+com\sunnywu\nsq\NsqConsumer$1.class
+com\sunnywu\entity\User.class
+com\sunnywu\mapper\UserMapper.class
+com\sunnywu\nsq\NsqConsumer.class

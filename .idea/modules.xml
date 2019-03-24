@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/grpc-grades-proto/grpc-grades-proto.iml" filepath="$PROJECT_DIR$/grpc-grades-proto/grpc-grades-proto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grpc-nsq.iml" filepath="$PROJECT_DIR$/grpc-nsq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grpc-grades-service/grpcgradesservice.iml" filepath="$PROJECT_DIR$/grpc-grades-service/grpcgradesservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grpc-students-clients/grpcstudentsclients.iml" filepath="$PROJECT_DIR$/grpc-students-clients/grpcstudentsclients.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grpc-student-service/grpcstudentservice.iml" filepath="$PROJECT_DIR$/grpc-student-service/grpcstudentservice.iml" />
+    </modules>
+  </component>
+</project>

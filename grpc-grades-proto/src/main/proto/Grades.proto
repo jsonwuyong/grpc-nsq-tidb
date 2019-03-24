@@ -1,0 +1,23 @@
+syntax = "proto3";
+package grpc;
+option java_package = "com.sunnywu.grpc";
+option java_outer_classname = "GradesServiceProto";
+option java_multiple_files = true;
+
+//服务端接口类
+service Grades {
+  //服务端接口方法
+  rpc GetGrades (GradesRequest) returns (GradesReply) {}
+}
+
+//请求参数
+message GradesRequest {
+  string name = 1;
+  string sex = 2;
+  string in =3;
+}
+
+//响应参数
+message GradesReply {
+  string message = 1;
+}
