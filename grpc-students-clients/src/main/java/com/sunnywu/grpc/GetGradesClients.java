@@ -36,7 +36,7 @@ public class GetGradesClients {
     public  void greet(String name){
         GradesRequest request = GradesRequest.newBuilder()
                                              .setName(name)
-                                             .setIn("5").build();
+                                             .setSex("女").build();
         GradesReply response;
         try{
             response = blockingStub.getGrades(request);

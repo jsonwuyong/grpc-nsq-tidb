@@ -22,3 +22,5 @@
 *.rar
 .idea/
 .mvn/timing.properties
+/grpc-students-clients/target/classes/META-INF/
+/.idea/workspace.xml

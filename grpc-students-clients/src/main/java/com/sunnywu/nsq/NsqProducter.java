@@ -15,11 +15,11 @@ import java.util.concurrent.TimeoutException;
  **/
 public class NsqProducter {
 
-    public static void nsqProducer(){
+    public static void nsqProducer(String name){
         NSQProducer producer = new NSQProducer();
         producer.addAddress("106.12.206.242",4150).start();
         try {
-            producer.produce("sunny", "sunny say is ok".getBytes());
+            producer.produce(name, "sunny say is ok".getBytes());
         } catch (NSQException e) {
             e.printStackTrace();
         } catch (TimeoutException e) {
@@ -28,6 +28,6 @@ public class NsqProducter {
     }
 
     public static void main(String[] args){
-        nsqProducer();
+        nsqProducer("sunny");
     }
 }

@@ -22,9 +22,6 @@
                 <groupId>com.sunnywu.grpc-nsq</groupId>
                 <artifactId>grpc-grades-proto</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.sunnywu.grpc-nsq</groupId>
-            <artifactId>grpc-students-clients</artifactId>
-        </dependency>
+
     </dependencies>
 </project>

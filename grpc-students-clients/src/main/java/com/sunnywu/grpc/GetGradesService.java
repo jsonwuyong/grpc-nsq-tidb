@@ -1,8 +1,9 @@
-package com.sunnywu;/**
+package com.sunnywu.grpc;/**
  * Created by sunny
  * 2019/3/24.
  */
 
+import com.sunnywu.api.GrpcAchieveNqlApi;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 
@@ -22,7 +23,7 @@ public class GetGradesService {
 
     public void start() throws IOException {
         server = ServerBuilder.forPort(port)
-                .addService(new GradesImpl())
+                .addService(new GrpcAchieveNqlApi())
                 .build()
                 .start();
         logger.info("Server started, listening on "+ port);

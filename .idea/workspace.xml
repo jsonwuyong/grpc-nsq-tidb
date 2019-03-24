@@ -2,18 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1032186-65fe-4eea-83de-ae80f535082f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/api/GrpcServiceSub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_netty_1_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_39_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_17_Final.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-grades-service/grpcgradesservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-grades-service/grpcgradesservice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grpc-grades-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-grades-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-grades-service/src/main/java/com/sunnywu/GetGradesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-grades-service/src/main/java/com/sunnywu/GetGradesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-grades-service/src/main/java/com/sunnywu/GradesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-grades-service/src/main/java/com/sunnywu/GradesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-grades-service/target/classes/com/sunnywu/GetGradesService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-grades-service/target/classes/com/sunnywu/GetGradesService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-grades-service/target/classes/com/sunnywu/GetGradesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-grades-service/target/classes/com/sunnywu/GetGradesService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-grades-service/target/classes/com/sunnywu/GradesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-grades-service/target/classes/com/sunnywu/GradesImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/api/GrpcAchieveNqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/api/GrpcAchieveNqlTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-students-clients/target/classes/com/sunnywu/nsq/NsqConsumer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-students-clients/target/classes/com/sunnywu/nsq/NsqConsumer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-students-clients/target/classes/com/sunnywu/nsq/NsqConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-students-clients/target/classes/com/sunnywu/nsq/NsqConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-grades-service/src/main/java/com/sunnywu/GetGradesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/grpc/GetGradesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-grades-service/src/main/java/com/sunnywu/GradesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-grades-service/target/classes/com/sunnywu/GetGradesService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-grades-service/target/classes/com/sunnywu/GetGradesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-grades-service/target/classes/com/sunnywu/GradesImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/api/GrpcAchieveNqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/api/GrpcAchieveNqlApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/grpc/GetGradesClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/grpc/GetGradesClients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/nsq/NsqProducter.java" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/nsq/NsqProducter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-students-clients/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-students-clients/target/classes/config.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/grpc-grades-service/target/" />
@@ -34,52 +48,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/api/GrpcAchieveNqlTest.java">
+        <entry file="file://$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/api/GrpcAchieveNqlApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="357">
+              <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/nsq/NsqProducter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grpc-students-clients/src/main/resources/config.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/nsq/NsqConsumer.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="66">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grpc-grades-service/src/main/java/com/sunnywu/GradesImpl.java">
+        <entry file="file://$PROJECT_DIR$/grpc-grades-proto/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grpc-grades-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+            <state relative-caret-position="1610">
+              <caret line="83" column="69" selection-start-line="83" selection-start-column="69" selection-end-line="83" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -124,6 +126,9 @@
       <find>build</find>
       <find>sayHello</find>
       <find>bindService</find>
+      <find>grpc-grades-service</find>
+      <find>grpc-grades-proto</find>
+      <find>beginGrpcService</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,7 +148,6 @@
         <option value="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/service/UserService.java" />
         <option value="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/grpc-students-clients/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/grpc-students-clients/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/grpc-students-clients/src/test/java/com/sunnywu/service/impl/UserServiceImplTest.java" />
         <option value="$PROJECT_DIR$/grpc-students-clients/src/main/resources/mapper/UserMapper.xml" />
@@ -170,13 +174,18 @@
         <option value="$PROJECT_DIR$/grpc-grades-proto/src/main/proto/Grades.proto" />
         <option value="$PROJECT_DIR$/src/main/java/com/sunnywu/grpcs/GrpcTiDbNsqTest.java" />
         <option value="$PROJECT_DIR$/grpc-students-clients/pom.xml" />
-        <option value="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/grpc/GetGradesClients.java" />
         <option value="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/nsq/NsqConsumer.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/grpc-grades-service/src/main/java/com/sunnywu/GetGradesService.java" />
-        <option value="$PROJECT_DIR$/grpc-grades-service/pom.xml" />
         <option value="$PROJECT_DIR$/grpc-grades-service/src/main/java/com/sunnywu/GradesImpl.java" />
+        <option value="$PROJECT_DIR$/grpc-students-clients/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/api/GrpcAchieveNqlTest.java" />
+        <option value="$PROJECT_DIR$/grpc-grades-service/pom.xml" />
+        <option value="$PROJECT_DIR$/grpc-grades-service/src/main/java/com/sunnywu/GetGradesService.java" />
+        <option value="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/grpc/GetGradesService.java" />
+        <option value="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/api/GrpcServiceSub.java" />
+        <option value="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/grpc/GetGradesClients.java" />
+        <option value="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/api/GrpcAchieveNqlApi.java" />
+        <option value="$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/nsq/NsqProducter.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -206,7 +215,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1320" />
@@ -230,37 +239,12 @@
             <path>
               <item name="grpcnsq" type="b2602c69:ProjectViewProjectNode" />
               <item name="grpcnsq" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-grades-service" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grpcnsq" type="b2602c69:ProjectViewProjectNode" />
               <item name="grpcnsq" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-grades-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grpcnsq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grpcnsq" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-grades-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grpcnsq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grpcnsq" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-grades-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grpcnsq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grpcnsq" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-grades-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sunnywu" type="462c0819:PsiDirectoryNode" />
+              <item name="grpc-grades-proto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grpcnsq" type="b2602c69:ProjectViewProjectNode" />
@@ -284,46 +268,22 @@
               <item name="grpcnsq" type="b2602c69:ProjectViewProjectNode" />
               <item name="grpcnsq" type="462c0819:PsiDirectoryNode" />
               <item name="grpc-students-clients" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grpcnsq" type="b2602c69:ProjectViewProjectNode" />
               <item name="grpcnsq" type="462c0819:PsiDirectoryNode" />
               <item name="grpc-students-clients" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sunnywu" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grpcnsq" type="b2602c69:ProjectViewProjectNode" />
               <item name="grpcnsq" type="462c0819:PsiDirectoryNode" />
               <item name="grpc-students-clients" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sunnywu" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grpcnsq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grpcnsq" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-students-clients" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sunnywu" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grpcnsq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grpcnsq" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc-students-clients" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -334,7 +294,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553437051143" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553441144407" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -352,6 +312,7 @@
       <recent name="com.sunnywu.service.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sunnywu.grpc" />
       <recent name="com.sunnywu" />
       <recent name="com.sunnywu.nameservice" />
     </key>
@@ -378,20 +339,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GrpcAchieveNqlTest">
+  <component name="RunManager" selected="Application.GetGradesClients">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetGradesService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sunnywu.GetGradesService" />
-      <module name="grpcgradesservice" />
+    <configuration name="GetGradesClients" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sunnywu.grpc.GetGradesClients" />
+      <module name="grpcstudentsclients" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sunnywu.*" />
+          <option name="PATTERN" value="com.sunnywu.grpc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -399,8 +360,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GrpcAchieveNqlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sunnywu.api.GrpcAchieveNqlTest" />
+    <configuration name="GetGradesService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sunnywu.grpc.GetGradesService" />
+      <module name="grpcstudentsclients" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sunnywu.grpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GrpcServiceSub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sunnywu.api.GrpcServiceSub" />
       <module name="grpcstudentsclients" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -413,53 +388,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NsqConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sunnywu.nsq.NsqConsumer" />
-      <module name="grpcstudentsclients" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sunnywu.nsq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NsqProducter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sunnywu.nsq.NsqProducter" />
-      <module name="grpcstudentsclients" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sunnywu.nsq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceImplTest.insertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="grpcstudentsclients" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sunnywu.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sunnywu.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.sunnywu.service.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="insertUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -535,19 +465,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NsqConsumer" />
-      <item itemvalue="Application.NsqProducter" />
-      <item itemvalue="JUnit.UserServiceImplTest.insertUser" />
+      <item itemvalue="Application.GrpcServiceSub" />
+      <item itemvalue="Application.GetGradesClients" />
       <item itemvalue="Application.GetGradesService" />
-      <item itemvalue="Application.GrpcAchieveNqlTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GrpcAchieveNqlTest" />
+        <item itemvalue="Application.GetGradesClients" />
         <item itemvalue="Application.GetGradesService" />
-        <item itemvalue="Application.NsqConsumer" />
-        <item itemvalue="Application.NsqProducter" />
-        <item itemvalue="JUnit.UserServiceImplTest.insertUser" />
+        <item itemvalue="Application.GrpcServiceSub" />
       </list>
     </recent_temporary>
   </component>
@@ -563,7 +489,7 @@
       <updated>1553267005751</updated>
       <workItem from="1553267008375" duration="4091000" />
       <workItem from="1553335602934" duration="11583000" />
-      <workItem from="1553349830140" duration="39646000" />
+      <workItem from="1553349830140" duration="43738000" />
     </task>
     <servers />
   </component>
@@ -600,7 +526,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55320000" />
+    <option name="totallyTimeSpent" value="59412000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,7 +541,7 @@
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30634922" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2825397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -625,18 +551,19 @@
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32872504" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.20583718" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49920633" visible="true" weight="0.32615384" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49920633" visible="true" weight="0.23230769" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32872504" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.22461538" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.2846154" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32872504" />
       <window_info anchor="bottom" id="Docker" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50079364" side_tool="true" weight="0.39477727" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="调试" order="14" weight="0.30461538" />
+      <window_info anchor="bottom" id="调试" order="14" weight="0.37384614" />
+      <window_info anchor="right" id="Module Dependencies" weight="0.20476191" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -671,22 +598,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grpc-nameservices/src/main/java/com/sunnywu/name/NameProto.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-nameservices/src/main/java/com/sunnywu/name/Name.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="208" column="34" selection-start-line="208" selection-start-column="34" selection-end-line="208" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-nameservices/src/main/java/com/sunnywu/name/IpOrBuilder.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-nameservices/src/main/java/com/sunnywu/name/NameOrBuilder.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/grpc-nameservices/src/main/java/com/sunnywu/name/NameServersGrpc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-552" />
@@ -703,13 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-grades-proto/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="83" column="69" selection-start-line="83" selection-start-column="69" selection-end-line="83" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -976,44 +880,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-student-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-students-clients/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="96" column="43" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grpc-grades-proto/src/main/proto/Grades.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/grpc/GetGradesClients.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/nsq/NsqProducter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1027,37 +897,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-grades-service/src/main/java/com/sunnywu/GetGradesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grpc-students-clients/src/test/java/com/sunnywu/service/impl/UserServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-275">
           <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-grades-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-grades-service/src/main/java/com/sunnywu/GradesImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,18 +915,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/api/GrpcAchieveNqlTest.java">
+    <entry file="file://$PROJECT_DIR$/grpc-students-clients/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="115">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc-grades-service/src/main/java/com/sunnywu/GradesImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grpc-students-clients/src/main/resources/config.properties">
+    <entry file="file://$PROJECT_DIR$/grpc-grades-service/src/main/java/com/sunnywu/GetGradesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc-grades-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/grpc/grpc-core/1.9.0/grpc-core-1.9.0-sources.jar!/io/grpc/internal/ManagedChannelImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="1019" selection-start-line="1019" selection-end-line="1019" />
+          <folding>
+            <element signature="e#37638#37639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc-grades-proto/src/main/java/com/sunnywu/grpc/GradesRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
+          <folding>
+            <element signature="e#11473#11474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc-student-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc-students-clients/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="92" column="41" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/api/GrpcServiceSub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/grpc/GetGradesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/grpc/GetGradesClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc-grades-proto/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1610">
+          <caret line="83" column="69" selection-start-line="83" selection-start-column="69" selection-end-line="83" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/api/GrpcAchieveNqlApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc-students-clients/src/main/java/com/sunnywu/nsq/NsqProducter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -1149,12 +1101,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>grpc-grades-proto</last-edited>
+          <last-edited>grpcstudentsclients</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.573903" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1174,7 +1125,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <last-edited>Maven: io.netty:netty-handler-proxy:4.1.17.Final</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
