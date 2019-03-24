@@ -6,6 +6,9 @@ package com.sunnywu.api;/**
 import com.sunnywu.GetGradesService;
 import com.sunnywu.grpc.GetGradesClients;
 import com.sunnywu.nsq.NsqConsumer;
+import com.sunnywu.nsq.NsqProducter;
+import com.sunnywu.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.IOException;
 
@@ -16,14 +19,24 @@ import java.io.IOException;
  **/
 public class GrpcAchieveNqlTest {
 
+    @Autowired
+    private UserService userService;
+
     //开始启动一个grpc的服务
-    public void  beginGrpcService() throws IOException,InterruptedException {
-        final GetGradesService server = new GetGradesService();
-        server.start();
-        server.blockUntilShutdown();
+    public static void  beginGrpcService(){
+        try {
+            final GetGradesService server = new GetGradesService();
+            server.start();
+            server.blockUntilShutdown();
+        }catch(IOException e){
+            e.printStackTrace();
+        }catch(InterruptedException ie){
+            ie.printStackTrace();
+        }
+
     }
     //休眠6秒之后启动grpc客户端
-    public void sleepTime(long times){
+    public static void sleepTime(long times){
         try {
            Thread.sleep(times);
         }catch (Exception e){
@@ -31,18 +44,23 @@ public class GrpcAchieveNqlTest {
         }
     }
     //启动客户端
-    public void startGetGradesClents(){
+    public static void startGetGradesClents(){
         GetGradesClients client = new GetGradesClients("127.0.0.1",50051);
         String user = "wuyong";
         client.greet(user);
     }
 
     //消费者
-    public void consumerNsqMgs(String name){
+    public static void consumerNsqMgs(String name){
         NsqConsumer nsqConsumer = new NsqConsumer();
         nsqConsumer.nsqConsumerTest(name);
     }
-    //生产者
 
+
+    public static void main(String[] args){
+        //启动客户端
+        consumerNsqMgs("wuyong");
+
+    }
 
 }

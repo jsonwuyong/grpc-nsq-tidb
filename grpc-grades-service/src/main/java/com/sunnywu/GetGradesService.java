@@ -31,7 +31,6 @@ public class GetGradesService {
 
             @Override
             public void run(){
-
                 System.err.println("*** shutting down gRPC server since JVM is shutting down");
                 GetGradesService.this.stop();
                 System.err.println("*** server shut down");
