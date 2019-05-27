@@ -1,7 +1,7 @@
-#grpc-nsq-tidb
-
-grpc-grades-proto
+grpc-nsq-tidb
 =================
+*grpc-grades-proto*
+
 定义了.proto文件，里面有获取参加和用户信息的.proto文件
 
 grpc-grades-service module
